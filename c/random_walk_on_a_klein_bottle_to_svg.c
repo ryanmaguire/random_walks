@@ -237,7 +237,7 @@ int main(void)
     struct pair A, B, edge;
 
     /*  And open an SVG file so that we can write to it.                      */
-    FILE *fp = fopen("tmpl_random_walk_rectangular_on_klein_bottle.svg", "w");
+    FILE *fp = fopen("random_walk_rectangular_on_klein_bottle.svg", "w");
 
     /*  If fopen fails it also returns NULL. Check for this.                  */
     if (fp == NULL)

@@ -227,7 +227,7 @@ int main(void)
     struct pair *A = malloc(sizeof(*A) * walk_size);
 
     /*  And open an SVG file so that we can write to it.                      */
-    FILE *fp = fopen("tmpl_random_walk_circular.svg", "w");
+    FILE *fp = fopen("random_walk_circular.svg", "w");
 
     /*  If malloc fails it returns NULL. Check that this didn't happen.       */
     if (A == NULL)
